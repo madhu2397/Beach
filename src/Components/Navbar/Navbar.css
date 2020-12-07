@@ -1,0 +1,136 @@
+/* Navbar */
+.navbar {
+    
+    top: 0;
+    left: 0;
+    position: fixed;
+    width: 200%;
+    margin-right: 50%;
+    margin-left: 50%;
+    padding: 0.75rem 2rem;
+    background: var(--offWhite);
+    z-index: 1;
+  }
+  .nav-bar{
+    margin-top: -378px;
+    width: 100%;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .nav-header {
+    display: flex;
+    justify-content: space-between;
+  }
+  .nav-btn {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+  }
+  .nav-icon {
+    font-size: 1.5rem;
+    color: var(--primaryColor);
+  }
+  .nav-links {
+   /* height: 0;
+    overflow: hidden;*/
+    transition: var(--mainTransition);
+    list-style-type: none;
+  }
+  .nav-links a {
+    display: block;
+    text-decoration: none;
+    padding: 1rem 0;
+    color: var(--mainBlack);
+    transition: var(--mainTransition);
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: var(--mainSpacing);
+  }
+  .nav-links a:hover {
+    color: var(--primaryColor);
+  }
+  
+  .show-nav {
+    height: 100px;
+  }
+  @media screen and (min-width: 768px) {
+    .nav-btn {
+      display: none;
+    }
+    .nav-center {
+      max-width: 1170px;
+      margin: 0 auto;
+      display: flex;
+    }
+    .nav-links {
+      height: auto;
+      display: flex;
+      margin-left: 4rem;
+    }
+    .nav-links a {
+      margin: 0 1rem;
+      padding: 0.5rem 0;
+    }
+  }
+  /* end of navbar */
+  
+/* Navbar */
+.nav-link{
+  padding: 8px 15px;
+  margin-left: 10px;
+  margin-right: 20px;
+  font-size: 18px;
+  text-align: center;
+  border: 2px solid transparent;
+  transition: .5s linear;
+  font-weight: 800;
+  -webkit-transition: .5s linear;
+  -moz-transition: .5s linear;
+  -ms-transition: .5s linear;
+  -o-transition: .5s linear;
+}
+.bg-transparent.scrolled {
+  background-color: black!important;
+  transition:500ms ease;
+}
+
+.navbar-brand{
+  font-size: 32px!important;
+  color: #ffffff!important;
+}
+.nav-link:hover{
+  color: #ffffff;
+  border-bottom: 2px solid #ffffff;
+}
+.nav-link.active_class{
+color: #ffffff;
+border: 2px solid #ffffff;
+font-weight: 800;
+}
+
+.form-control{
+border: 2px solid #000;
+}
+.form-control:focus,
+.form-control.active {
+  border: 2px solid #000000!important;
+}
+textarea:focus, 
+textarea.form-control:focus, 
+input.form-control:focus, 
+input[type=text]:focus, 
+input[type=password]:focus, 
+input[type=email]:focus, 
+input[type=number]:focus, 
+[type=text].form-control:focus, 
+[type=password].form-control:focus, 
+[type=email].form-control:focus, 
+[type=tel].form-control:focus, 
+[contenteditable].form-control:focus {
+box-shadow: inset 0 -1px 0 #ddd;
+}
+
+
+/* end of navbar */
